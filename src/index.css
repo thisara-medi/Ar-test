@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: Clarendon;
+	src: url("/public/fonts/Clarendon-Regular-Font.ttf");
+}
+
+@font-face {
+	font-family: VolvoNovum;
+	src: url("/public/fonts/Volvo-Novum-Regular.ttf");
+}
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+.parallax {
+	background: url("/O2_Scroller.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.learn-more-btn-wrapper {
+}
+
+.learn-more-btn {
+	/* border: 0.9px solid white; */
+	/* border-radius: 1px; */
+	font-size: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	/* padding: 0px 4px; */
+	/* color: white; */
+	color: #9ec2ff;
+	font-family: VolvoNovum;
+	/* transition: all 0.3s; */
+	text-transform: uppercase;
+	/* padding-top: 1px; */
+	/* padding-bottom: 100rem; */
+	/* margin-left: -1; */
+}
+
+.learn-more-btn button {
+	font-family: VolvoNovum;
+	text-transform: uppercase;
+	position: absolute;
+	width: 100px;
+	top: 0px;
+	left: 0px;
+	transform: translate(-50%, -50%);
+}
+
+.learn-more-btn:hover {
+	background-color: white;
+	color: #d1e2ff;
+}
+
+.fade-in {
+	opacity: 1 !important;
+	transition: all 1s ease;
+}
+.fade-out {
+	opacity: 0;
+	transition: all 1s ease;
+	visibility: hidden;
+}
