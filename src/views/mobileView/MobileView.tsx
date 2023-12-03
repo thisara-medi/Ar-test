@@ -64,8 +64,8 @@ const MobileView = () => {
 							// onEnded={onVideoEnded}
 							// controls
 						>
-							<source src="/demo.mp4" type="video/mp4" />
-							<source src="demo.webm" type="video/webm" />
+							<source src="/CT V_1.2.mp4" type="video/mp4" />
+							<source src="CT V_1.2.webm" type="video/webm" />
 							Your browser does not support the video tag.
 						</video>
 					</div>
