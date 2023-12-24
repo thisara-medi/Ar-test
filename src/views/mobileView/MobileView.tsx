@@ -44,7 +44,7 @@ const MobileView = () => {
 					<div className="relative">
 						{isPlaying && (
 							<a
-								href={isPlaying ? "/SEPHORA.usdz" : "#"}
+								href={isPlaying ? "/GiftBox.glb" : "#"}
 								rel="ar"
 								className="block h-[100%] w-[100%] absolute z-[1000]"
 							>
@@ -64,11 +64,12 @@ const MobileView = () => {
 							playsInline
 							preload="auto"
 							onPlay={() => setIsPlaying(true)}
-							// onEnded={onVideoEnded}
+							// onEnded={() => setIsPlaying(true)}
+							 loop={true}
 							// controls
 						>
-							<source src="/CT V_1.2.mp4" type="video/mp4" />
-							<source src="CT V_1.2.webm" type="video/webm" />
+							<source src="/giftbox.mp4" type="video/mp4" />
+							{/* <source src="CT V_1.2.webm" type="video/webm" /> */}
 							Your browser does not support the video tag.
 						</video>
 					</div>
