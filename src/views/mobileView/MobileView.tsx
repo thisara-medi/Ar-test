@@ -44,7 +44,7 @@ const MobileView = () => {
 					<div className="relative">
 						{isPlaying && (
 							<a
-								href={isPlaying ? "/GiftBoxFinal.usdz" : "#"}
+								href={isPlaying ? "/Gift-box.usdz" : "#"}
 								rel="ar"
 								className="block h-[100%] w-[100%] absolute z-[1000]"
 							>
